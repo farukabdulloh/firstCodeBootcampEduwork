@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Profile Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #f4f4f4;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      header table {
+        width: 100%;
+      }
+
+      header a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #333;
+      }
+
+      #hero {
+        padding: 20px;
+      }
+
+      #hero h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      #hero p {
+        margin: 10px 0;
+        color: #666;
+      }
+
+      #hero img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      #biodata,
+      #portfolio {
+        padding: 20px;
+      }
+
+      #biodata h2,
+      #portfolio h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      #biodata p {
+        text-align: center;
+        color: #666;
+        margin: 10px 0;
+      }
+
+      #biodata table,
+      #portfolio table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+      }
+
+      #biodata td,
+      #portfolio td {
+        padding: 10px;
+        text-align: center;
+      }
+
+      #portfolio img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section 1: Menu -->
+    <header>
+      <table>
+        <tr>
+          <td><strong>Brand</strong></td>
+          <td align="right">
+            <a href="#hero">Header</a> |
+            <a href="#biodata">Section</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <!-- Section 2: Hero -->
+    <section id="hero">
+      <table>
+        <tr>
+          <td width="50%">
+            <h1>
+              Selamat Datang di Website Saya
+            </h1>
+            <p>
+              Ini adalah contoh header dengan dua
+              lapisan. Kolom kiri berisi teks
+              seperti ini. Panjang teks bisa lebih
+              fleksibel.
+            </p>
+          </td>
+          <td width="50%" align="center">
+            <img
+              src="https://via.placeholder.com/600x400"
+              alt="Image"
+            />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Section 3: Biodata -->
+    <section id="biodata">
+      <h2>About Me</h2>
+      <p>A brief introduction about myself</p>
+      <table>
+        <tr>
+          <td><strong>Full Name</strong></td>
+          <td></td>
+          <td><strong>Education</strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Contact</strong></td>
+          <td></td>
+          <td><strong>Hobbies</strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Job</strong></td>
+          <td></td>
+          <td><strong>Address</strong></td>
+          <td></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Section 4: Portfolio -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <table>
+        <tr>
+          <td align="center">
+            <img
+              src="https://via.placeholder.com/350x200"
+              alt="Project 1"
+            />
+            <p>
+              Proyek 1<br />Deskripsi proyek 1
+            </p>
+          </td>
+          <td align="center">
+            <img
+              src="https://via.placeholder.com/350x200"
+              alt="Project 2"
+            />
+            <p>
+              Proyek 2<br />Deskripsi proyek 2
+            </p>
+          </td>
+          <td align="center">
+            <img
+              src="https://via.placeholder.com/350x200"
+              alt="Project 3"
+            />
+            <p>
+              Proyek 3<br />Deskripsi proyek 3
+            </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
